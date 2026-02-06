@@ -1,1 +1,16 @@
 /* p要素に適用するスタイル */
+p {
+    display: inline-block;
+    background-color: #00008b;
+    color: white;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-style: dotted ridge ridge solid;
+    border-color: yellow yellow red yellow;
+    border-width: 5px 10px 10px 5px;
+    
+
+}
+
