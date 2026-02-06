@@ -7,10 +7,13 @@ header {
   text-align: center;
   background-color: darkblue;
   color: white;
+  position: sticky;
+  top: 0;
 }
 
 main {
   text-align: center;
+  opacity: 0.9;
 }
 
 .container {
@@ -26,17 +29,15 @@ main {
   background-color: wheat;
 }
 
-img {
+img { /* imgのスタイルをここにまとめる */
   margin-top: 24px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 
-footer {
+footer { /* footerのスタイルをここにまとめる */
   text-align: center;
   font-size: 12px;
   margin-top: 32px;
 }
-
-
-/* img要素にスタイルを適用 */
-
-/* header要素にスタイルを適用 */
